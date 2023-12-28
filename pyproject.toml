@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "telegram-bot-example"
+version = "0.1.0"
+description = ""
+authors = ["neytirri <129419810+neytirri@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.2.0"
+psycopg-binary = "^3.1.16"
+pydantic-settings = "^2.1.0"
+sqlalchemy = "^2.0.23"
+alembic = "^1.13.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

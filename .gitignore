@@ -1,0 +1,12 @@
+# Django
+*.log
+*.pot
+*.pyc
+.idea/
+__pycache__/
+.env
+db.sqlite3
+# macOS
+.DS_Store
+# IDE
+.vscode/
