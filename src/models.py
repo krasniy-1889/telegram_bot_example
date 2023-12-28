@@ -1,9 +1,8 @@
 from sqlalchemy import BigInteger, Boolean, Integer, String
 from sqlalchemy.orm import Mapped, mapped_column
 
-from schemas.user import UserReadDTO
-
 from database import Base
+from schemas.user import UserReadDTO
 
 
 class UserORM(Base):

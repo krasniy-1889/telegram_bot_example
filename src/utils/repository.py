@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+
 from loguru import logger
 from sqlalchemy import insert, select
 

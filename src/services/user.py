@@ -1,5 +1,6 @@
 from aiogram.types import User
 from loguru import logger
+
 from repositories.user import UserRepository
 
 

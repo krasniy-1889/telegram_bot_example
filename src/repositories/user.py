@@ -1,9 +1,10 @@
+from loguru import logger
 from sqlalchemy import exists, select
+
+from database import session_factory
 from models import UserORM
 from schemas.user import UserReadDTO
 from utils.repository import SQLAlchemyRepository
-from database import session_factory
-from loguru import logger
 
 
 class UserRepository(SQLAlchemyRepository):

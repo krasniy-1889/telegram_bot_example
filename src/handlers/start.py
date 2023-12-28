@@ -6,7 +6,6 @@ from loguru import logger
 
 from services.user import UserService
 
-
 start_router = Router()
 
 
